@@ -49,11 +49,17 @@ a:hover {
 .postname {
   float: left;
 }
+.postname:hover {
+  float: left;
+  text-decoration: underline;
+}
 .posttime {
   float: right;
 }
 .logopng {
   width: 200px;
+  height: 200px;
+  border-radius: 200px;
 }
 .breadcrumb {
   padding: 8px 15px;
